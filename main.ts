@@ -5,7 +5,7 @@ import { router as getContract } from "#/api/contract/get/index.ts";
 import { router as createMember } from "#/api/member/create/index.ts";
 import { router as getMember } from "#/api/member/get/index.ts";
 
-const router = new Router()
+export const router = new Router()
   .use(createContract)
   .use(getContract)
   .use(createMember)
